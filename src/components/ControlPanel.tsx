@@ -245,9 +245,19 @@ export const ControlPanel: React.FC<ControlPanelProps> = ({
         </ul>
         <p className="mt-3"><strong>⭐ 評価について:</strong></p>
         <ul className="list-disc list-inside space-y-1 mt-1">
-          <li><strong>★★★</strong>: 個人店で情報充実、目的地近く</li>
+          <li><strong>★★★</strong>: 個人店で情報充実、ルート沿い</li>
           <li><strong>★★</strong>: 一般的なスポット（大半がこの評価）</li>
-          <li><strong>★</strong>: 有名チェーン店、出発地近く</li>
+          <li><strong>★</strong>: 有名チェーン店、逆走・遠回り</li>
+        </ul>
+        
+        <p className="mt-3"><strong>🔧 使用技術:</strong></p>
+        <ul className="list-disc list-inside space-y-1 mt-1 text-xs">
+          <li><strong>API:</strong> Overpass API（OpenStreetMapデータ）</li>
+          <li><strong>地図:</strong> Leaflet + React Leaflet</li>
+          <li><strong>フロントエンド:</strong> React + TypeScript + Vite</li>
+          <li><strong>スタイル:</strong> Tailwind CSS</li>
+          <li><strong>通知:</strong> React Toastify</li>
+          <li><strong>デプロイ:</strong> Vercel / Netlify / GitHub Pages</li>
         </ul>
       </div>
     </div>

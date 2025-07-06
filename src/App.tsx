@@ -148,7 +148,7 @@ function App() {
       {/* スマホ用コンパクトコントロール */}
       <div className="lg:hidden bg-white shadow-md p-3">
         <div className="text-center mb-2">
-          <h1 className="text-xl font-bold text-gray-800">🎲 寄り道ガチャ</h1>
+          <h1 className="text-xl font-bold text-gray-800">寄り道ガチャ</h1>
         </div>
         
         {/* カテゴリ選択 */}

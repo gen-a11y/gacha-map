@@ -34,7 +34,7 @@ export const ControlPanel: React.FC<ControlPanelProps> = ({
   return (
     <div className="bg-white shadow-lg rounded-lg p-6 space-y-6">
       <div className="text-center">
-        <h1 className="text-3xl font-bold text-gray-800 mb-2">🎲 寄り道ガチャ</h1>
+        <h1 className="text-3xl font-bold text-gray-800 mb-2">寄り道ガチャ</h1>
         <p className="text-gray-600">地図をクリックして出発地と目的地を設定し、寄り道スポットをガチャで発見しよう！</p>
         
         {/* プログレス表示 */}
